@@ -16,7 +16,7 @@ namespace Examen2_B83338_B83394_B65619
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
         }
     }
 }

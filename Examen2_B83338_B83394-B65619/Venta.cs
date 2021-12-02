@@ -12,15 +12,18 @@ namespace Examen2_B83338_B83394_B65619
 		private DateTime Fecha { set; get; }
 	    private Cliente cliente { set; get; }
 
-	public Venta(int num, DateTime fech, Cliente cli)
-		{
-			numeroV = num;
-			Fecha = fech;
-			cliente = cli;
-		}
 
 		public Venta()
 		{
+
 		}
+		public Venta(int numerV, DateTime fech, Cliente client)
+		{
+			numeroV = numerV;
+			Fecha = fech;
+			cliente = client;
+		}
+
+		
 	}
 }
